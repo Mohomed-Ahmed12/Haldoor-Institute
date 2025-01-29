@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <header class="header">
+        <div class="h1">
+            <h1>HALDOOR INSTITUTE</h1>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="./inex.html">Home</a></li>
+                <li><a href="./AboutUs.HTML">About Us</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="./vision.html">Vision & Mission</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); max-width: 900px; margin: auto;">
+            <h1 id="about_us" style="color: #2c3e50;">Your journey to mastering programming starts here.</h1>
+            <p class="main_p" style="color: #34495e;">Haldoor Institute was established with a clear purpose: to provide quality education in programming and technology
+                for students and aspiring professionals. Since our inception, we have been at the forefront of equipping learners with the skills
+                they need to thrive in the rapidly advancing tech world. Over the years, we have nurtured countless learners, guiding them from
+                foundational concepts to real-world applications. Our commitment to excellence and innovation has made us a trusted name in the
+                tech education industry.</p>
+        </div>
+        
+        <div class="main_p" style="background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); max-width: 900px; margin: auto; margin-top: 20px;">
+            <h2 style="color: #2980b9;">Meet Our Team</h2>
+            <p class="section_1" style="color: #2c3e50;">At Haldoor Institute, we believe that a great team drives success. Our instructors and staff bring a 
+                wealth of experience, passion, and dedication to the learning process.</p>
+            <h2 style="color: #2980b9;">Our Expert Team Members</h2>
+            <h3 style="color: #27ae60;">1. Ali Ahmed – Lead Instructor</h3>
+            <p style="color: #2c3e50;">Expertise: Python and Machine Learning <br>
+                Bio: With over 10 years of teaching experience, Ali Ahmed is passionate about simplifying 
+                complex programming concepts for students.</p>
+            <h3 style="color: #27ae60;">2. Ayaan Osman – Front-End Development Instructor</h3>
+            <p style="color: #2c3e50;">Expertise: HTML, CSS, and JavaScript <br>
+                Bio: Ayaan brings creativity and technical expertise to help students master front-end design 
+                and development.</p>
+            <h3 style="color: #27ae60;">3. Hodan Hassan – Student Success Coordinator</h3>
+            <p style="color: #2c3e50;">Expertise: Career Development <br>
+                Bio: Hodan ensures every student receives the guidance they need to achieve their professional 
+                goals.</p>
+            <h3 style="color: #27ae60;">4. Khalid Yusuf – Program Director</h3>
+            <p style="color: #2c3e50;">Expertise: Curriculum Design <br>
+                Bio: Khalid has shaped Haldoor’s programs to deliver both practical skills and industry relevance.</p>
+            <h3 style="color: #2980b9;">Why Haldoor Institute?</h3>
+            <p style="color: #2c3e50;">With a team of experienced professionals and a history of transforming learners into skilled 
+                professionals, Haldoor Institute is the ideal place to begin your tech journey.</p>
+            <h3 style="color: #e67e22;">Join us today and meet the team committed to your success!</h3>
+            <h3 style="color: #e67e22;">Haldoor Institute – Where skills meet opportunity.</h3>
+        </div>
+    </main>
+    
+
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h2>Haldoor Institute</h2>
+                <p>Your journey to mastering programming starts here. Join us and be part of the tech revolution!</p>
+            </div>
+            
+            <div class="footer-middle">
+                <h3>Quick Links</h3>
+                <ul class="link_footer">
+                    <li><a href="./inex.html">Home</a></li>
+                    <li><a href="./AboutUs.HTML">About Us</a></li>
+                    <li><a href="./register.html">Register</a></li>
+                    <li><a href="./vision.html">Vision & Mission</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-right">
+                <h3>Contact Us</h3>
+                <p>Email: haldoorinstitute12@gmail.com</p>
+                <p>Phone: 252613013806</p>
+                <p>Address: Hodan-Taleex, mugadisho, somalia</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Haldoor Institute. All rights reserved.</p>
+        </div>
+    </footer>
+      
+
+    <script>
+        let head_class = document.getElementsByClassName("header");
+        for (let h of head_class) {
+            h.style.color = "coral";
+            h.style.background = "#ddd";
+            h.style.margin = "0.3%";
+        }
+        let head_h1 = document.getElementsByClassName("h1");
+        for (let h of head_h1) {
+            h.style.margin = "2%";
+        }
+        let nav = document.getElementsByClassName("nav");
+        for (let h of nav) {
+            h.style.textAlign = "center";
+        }
+        let my_title = document.getElementById("about_us"); 
+            my_title.innerHTML = "Our History"; 
+            my_title.style.paddingLeft= ("4%")
+           
+        let main_p = document.getElementsByClassName("main_p")
+        for (let h of main_p){
+            h.style.paddingLeft= ("4%")
+            h.style.paddingRight= ("4%")
+            
+        }
+      
+       
+
+
+
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,231 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.video-banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+.cta-button {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    animation: fadeIn 2s ease-out;
+}
+
+.btn:hover {
+    background-color: #e64a19;
+    transform: scale(1.1);
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-out;
+    
+}
+
+.course-card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.btn.btn:course {
+    background-color: #e64a19;
+    transform: scale(1.1);
+}
+
+.testimonials {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial span {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+main {
+   
+    margin: 20px auto;
+    padding: 20px;
+  
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; */
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.register-form label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.register-form input,
+.register-form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.register-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-form button:hover {
+    background-color: #0056b3;
+}
+
+.confirmation {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.vision, .mission {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.vision h3, .mission h3 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.vision p, .mission ul {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.mission ul {
+    list-style-type: disc;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.mission ul li {
+    margin: 8px 0;
+}
